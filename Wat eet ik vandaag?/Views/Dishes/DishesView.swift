@@ -93,7 +93,8 @@ private class DishCell: UITableViewCell {
     init() {
         super.init(style: .default, reuseIdentifier: DishCell.identifier)
         
-        ratingImageView.image = UIImage(named: "")
+        ratingImageView.image = UIImage(named: "icon_star")
+        ratingImageView.tintColor = Colors.gold.UI
         addSubview(ratingImageView)
         
         ratingLabel.textColor = .black
@@ -102,6 +103,7 @@ private class DishCell: UITableViewCell {
         
         nameLabel.textColor = .black
         nameLabel.textAlignment = .left
+        nameLabel.numberOfLines = 2
         addSubview(nameLabel)
     }
     

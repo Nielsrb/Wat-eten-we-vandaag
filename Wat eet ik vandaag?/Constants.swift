@@ -9,6 +9,7 @@
 import Foundation
 
 struct Colors {
+    static let gold         = Color(220, 190, 0)
     static let lightGray    = Color(230, 230, 230)
     static let darkGray     = Color(100, 100, 100)
 }
